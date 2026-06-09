@@ -11,3 +11,8 @@ A Bash script that is part of the second section of the project. It describes wh
 ## two_b.sh
 An XML file that is part of the second section of the project. It describes what is a URDF file in full detail and examples.
 
+## three.sh
+A Bash script that is the third section of the project. It describes how to view robot in RViz without a package.
+
+## four.sh
+A Bash script that is the fourth section of the project. It describes how to create a launch file. 
