@@ -1,0 +1,73 @@
+<?xml version="1.0">
+<robot name="name">
+
+
+    <link1 name="base">
+        <visual>
+            <geometry>
+            <origin>
+            <material>
+   
+            </material>
+            </origin>
+            </geometry>
+        </visual>
+       
+        <collision>
+            <geometry>
+            <origin>
+       
+            </origin>
+            </geometry>
+        </collision>
+       
+        <inetrial>
+            <mass>
+            <origin>
+            <inertia>
+           
+            </inertia>
+            </origin>
+            </mass>
+        </inetrial>
+    </link1>
+   
+    <joint1 name="base" type="revolute">
+        <origin xyz="5 3 0" rpy="0 0 0">
+       
+        </origin>
+    </joint1>
+   
+    <link2 name="rotate_base">
+       
+    </link2>
+   
+    <joint2 name="rotate_base" type="revolute">
+       
+    </joint2>
+   
+    <link3 name="lower_arm">
+       
+    </link3>
+   
+    <joint3 name="lower_upper type="revolute"">
+       
+    </joint3>
+   
+    <link4 name="upper_arm">
+       
+    </link4>
+   
+    <joint4 name="upper_stud" type="revolute">
+       
+    </joint4>
+   
+    <link5 name="stud">
+       
+    </link5>
+   
+    <joint5 name="effector_stud" type="revolute">
+       
+    </joint5>
+
+</robot>
